@@ -1,4 +1,3 @@
-cat > README.md <<'EOF'
 # Lab Android Security — Analyse de l’application DIVA avec Drozer
 
 ## Présentation du lab
