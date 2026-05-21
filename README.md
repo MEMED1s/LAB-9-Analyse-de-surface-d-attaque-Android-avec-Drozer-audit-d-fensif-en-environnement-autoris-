@@ -321,10 +321,10 @@ Pour améliorer la sécurité de l’application, il est recommandé de :
 
 | ID | Élément | Vulnérabilité | Niveau |
 |-----|----------|----------------|---------|
-| V1 | NotesProvider | Provider exporté sans permissions | 🔴 Critique |
-| V2 | Activities | Activités sensibles accessibles | 🔴 Critique |
-| V3 | Application | Debug activé | 🟠 Élevé |
-| V4 | SDK ancien | Compatibilité avec versions obsolètes | 🟡 Moyen |                              |
+| V1 | Activities | Activités sensibles accessibles |  Critique |
+| V2 | NotesProvider | Provider exporté sans permissions |  Critique |
+| V3 | Application | Debug activé | Élevé |
+| V4 | SDK ancien | Compatibilité avec versions obsolètes |  Moyen |                              |
 
 ---
 
