@@ -317,17 +317,14 @@ Pour améliorer la sécurité de l’application, il est recommandé de :
 
 ---
 
-## 13. Emplacement exact des screens dans le README
+## Rapport des vulnérabilités
 
-| Nom du screen | Où le mettre dans le README |
-|---|---|
-| `image.png` | Section 1 : Architecture générale du lab |
-| `pic0.png` | Section 2 : Installation de Drozer Agent |
-| `pic1.png` | Section 3 : Lancement de Drozer Agent sur l’émulateur |
-| `pic2.png` | Section 5 : Collecte des informations du package |
-| `pic4.png` | Section 6 : Analyse des activités exposées |
-| `pic3.png` | Section 7 : Analyse du fichier Android Manifest |
-| `pic5.png` | Section 8 : Recherche des Content Providers |
+| ID | Élément | Vulnérabilité | Niveau |
+|-----|----------|----------------|---------|
+| V1 | NotesProvider | Provider exporté sans permissions | 🔴 Critique |
+| V2 | Activities | Activités sensibles accessibles | 🔴 Critique |
+| V3 | Application | Debug activé | 🟠 Élevé |
+| V4 | SDK ancien | Compatibilité avec versions obsolètes | 🟡 Moyen |                              |
 
 ---
 
